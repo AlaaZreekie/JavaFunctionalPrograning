@@ -25,6 +25,7 @@ public class _Stream
                 .forEach(g -> System.out.println(g));
         
         people.stream().allMatch(p -> p.GENDER.equals(FEMALE));
+        System.out.println(people.get(0).NAME);
     }
 
 
